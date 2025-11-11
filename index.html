@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameFact - Inicio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #001f3f; /* azul oscuro */
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: #00ffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 2px solid #00ffff;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .contenido {
+      flex: 3;
+    }
+
+    .nombre {
+      border: 2px solid #cccccc;
+      background-color: #222;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .imagen {
+      border: 2px solid #cccccc;
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .imagen img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+
+    .boton {
+      margin-top: 10px;
+    }
+
+    .boton a {
+      background-color: #00ffff;
+      color: black;
+      padding: 8px 12px;
+      text-decoration: none;
+      border: 1px solid #000;
+    }
+
+    aside {
+      flex: 1;
+      border: 2px solid #cccccc;
+      background-color: #333;
+      padding: 10px;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #003366;
+      text-align: center;
+      color: #ccc;
+      padding: 8px;
+      font-size: 0.9em;
+      border-top: 2px solid #00ffff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/5726/5726707.png" alt="Logo GameFact">
+      <h2>GameFact 🎮</h2>
+    </div>
+    <p>Menú de accesos</p>
+  </header>
+
+  <main>
+    <div class="contenido">
+      <div class="nombre">
+        <h3>Bienvenido a GameFact</h3>
+      </div>
+
+      <div class="imagen">
+        <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/video-games-1953945_1280.jpg" alt="Videojuegos imagen principal">
+        <div class="boton">
+          <a href="menu de compra.html">Entrar al menú de compra</a>
+        </div>
+      </div>
+    </div>
+
+    <aside>
+      <h3>Datos del sitio</h3>
+      <p><b>GameFact</b></p>
+      <p>Tienda de videojuegos, consolas y accesorios.</p>
+      <p>Tel: 555-123-4567</p>
+      <p>Horario: Lunes a viernes</p>
+    </aside>
+  </main>
+
+  <footer>
+    © 2025 GameFact
+  </footer>
+
+</body>
+</html>

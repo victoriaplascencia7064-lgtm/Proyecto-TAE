@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameFact - Menú de compra</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #002b55; /* azul más suave */
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004080;
+      color: #00ffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      border-bottom: 2px solid #00ffff;
+    }
+
+    header img {
+      width: 50px;
+      height: 50px;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .secciones {
+      flex: 3;
+    }
+
+    .seccion {
+      border: 2px solid #cccccc;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    .seccion img {
+      width: 130px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    .info h3 {
+      color: #00ffff;
+      margin: 0;
+      font-size: 1em;
+    }
+
+    .info p {
+      font-size: 0.9em;
+      color: #ddd;
+    }
+
+    .publicidad {
+      flex: 1;
+      border: 2px solid #cccccc;
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .publicidad img {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: #ccc;
+      text-align: center;
+      padding: 8px;
+      font-size: 0.9em;
+      border-top: 2px solid #00ffff;
+    }
+
+    .volver {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .volver a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/5726/5726707.png" alt="Logo GameFact">
+    <h2>Menú de compra 🎮</h2>
+  </header>
+
+  <main>
+    <div class="secciones">
+      <div class="seccion">
+        <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/video-games-1953945_1280.jpg" alt="Videojuegos">
+        <div class="info">
+          <h3>Sección de videojuegos</h3>
+          <p>Juegos nuevos y clásicos disponibles.</p>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <img src="https://cdn.pixabay.com/photo/2014/11/10/21/17/video-game-console-526463_1280.jpg" alt="Consolas">
+        <div class="info">
+          <h3>Sección de consolas</h3>
+          <p>Encuentra consolas nuevas y usadas.</p>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <img src="https://cdn.pixabay.com/photo/2016/11/22/21/42/controller-1850018_1280.jpg" alt="Accesorios">
+        <div class="info">
+          <h3>Sección de accesorios</h3>
+          <p>Controles, audífonos y cargadores.</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="publicidad">
+      <h3>Publicidad</h3>
+      <p>Ofertas de la semana</p>
+      <img src="https://cdn.pixabay.com/photo/2020/04/21/05/36/controller-5073838_1280.jpg" alt="Publicidad">
+    </aside>
+  </main>
+
+  <div class="volver">
+    <a href="index.html">← Volver a inicio</a>
+  </div>
+
+  <footer>
+    © 2025 GameFact
+  </footer>
+
+</body>
+</html>
